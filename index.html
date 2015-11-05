@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SIPVe - Sistema Integrado de Protección Venezolana</title>
+
+		<meta name="description" content="Presentación web para el congreso DIMECANIC">
+		<meta name="author" content="Unknown Kadaba">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>Sistema y Software Aplicable a la Ingeniería Industrial y Mecánica.</h3>
+					<h4>SIPVe</h4>
+					<p>
+						<small>Ponencia por: <a href="http://github.com/talueses">Jenner Fuentes</a> / <a href="http://twitter.com/kadaba">@kadaba</a></small>
+					</p>
+				</section>
+				<section>
+					<section data-background="http://i41.tinypic.com/2jg0avc.jpg">
+						<h2>¡Interactúemos!</h2>
+						<p>
+							Let's do it!
+						</p>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>¿Qué es "programación"?</h2>
+						<p>La programación informática, acortada como programación, es el proceso de diseñar, codificar, depurar y mantener el código fuente de programas computacionales.</p>
+					</section>
+					<section>
+						<h2>En lenguaje menos técnico:</h2>
+						<p>Proceso de estructurar, diseñar y hacer una función.</p>
+					</section>
+					<section data-transition="slide" data-background-transition="zoom" data-background="https://upload.wikimedia.org/wikipedia/commons/3/32/Pauscal_lenguaje_de_programaci%C3%B3n.png">
+						<h2>Menos técnico: Level 2</h2>
+						<p>Un compendio de instrucciones, lógicas.</p>
+						<br>
+						<!-- <a href="#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a> -->
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>¿Qué es "software"?</h2>
+						<p>Se conoce como software al equipo lógico o soporte lógico de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hacen posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware.</p>
+						<p class="fragment"><em>Ejemplos:</em></p>
+					</section>
+					<section>
+						<h2>En lenguaje menos técnico:</h2>
+						<p>Lo intangible de un computador.</p>
+					</section>
+					<section>
+						<h2>Menos técnico: Level 2</h2>
+						<p>Aquello que luego de instalar en un computador, usamos.</p>
+						<br>
+						<!-- <a href="#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a> -->
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Programar</h2>
+						<p>
+							¿Es solo de programadores/computadoras?
+						</p>
+							<p class="fragment">...</p>
+					</section>
+					<section>
+						<h2><p class="fragment">¡NO!</p></h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Acción   |    Función </h2>
+						<ol>
+							<li>Cepillarnos...</li>
+							<li>Vestirnos...</li>
+							<li>Arreglar la cama...</li>
+							<li>Comer...</li>
+						</ol>
+						<h2>
+							<p class="fragment">... Ir al trabajo</p>
+						</h2>
+					</section>
+					<section>
+						<h2>Acción   |    Función </h2>
+						<pre><code>
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+s = True
+n = False
+
+print("Conteste s (sí) o n (no) a mis preguntas.")
+# Paso 0
+a = input('¿Te sientes listo para comenzar el día?: ')
+if a == s:
+# Paso 1
+	b = input('¿Te cepillaste?: ')
+	if b == s:
+#Paso 2
+		c = input('¿Te vestiste?: ' )
+		if c == s:
+# Paso 3
+			d = input('¿Arreglaste la cama?: ')
+			if d == s:
+				print '¡Muy bien! Ve al trabajo.'
+#En caso de no estar "despierto"
+else:
+	a == "n"
+	print 'Bueno, sigue durmiendo campeón!'
+						</code></pre>
+					</section>
+				</section>
+
+				<section data-transition="slide-in fade-out">
+					<h2>¿Software libre?</h2>
+					<p>
+						Es aquél que puede ser copiado, estudiado, modificado, utilizado libremente con cualquier fin y redistribuido con o sin cambios o mejoras.
+					</p>
+					<br>
+					<p class="fragment current-visble">Es decir, el </p><p class="fragment grow">«software libre»</p><p class="fragment current-visble"> es una cuestión de libertad, no de precio.</p>
+				</section>
+
+				<section class="slide-in fade-out">
+					<h2>SIPVe</h2>
+					<p>Sistema integral de protección venezolano.</p>
+					<p class="fragment">¿qué es?</p>
+					<p class="fragment">Video vigilancia, canetización, control de acceso y asistencia </p>
+				</section>
+				
+				<section>
+					<section class="slide-in fade-out">
+					<h2>SIPVe</h2>
+					<p class="fragment">Además de poseer todas las funcionalidades de administración de usuarios, roles y permisologías, permite el control de dispositivos de acceso (puertas y cerraduras eléctricas, lectoras de tarjetas), el registro de eventos, el monitoreo en tiempo real empleando cámaras IP, grabación de eventos, diseño de carnets de empleado y visitante, así como la administración de los mismos.</p>
+					</section>
+				</section>
+
+				<section>
+
+					<section data-background-video="video/Tutorial SIPve Sistema Integrado de Proteccion Venezolano.mp4" data-background-color="#000000">
+					</section>
+					<section data-transition="concave" data-background="img/auth.png" data-background-color="#000000">
+						<!-- Login -->
+					</section>
+					<section data-transition="concave" data-background="img/monitor_acceso.png">
+						<!-- Acces -->
+					</section>
+					<section data-transition="concave" data-background="img/carnet.png">
+						<!-- Carnet -->
+					</section>
+					<section data-transition="concave" data-background="img/monitor_video.png">
+						<!-- Video-->
+					</section>
+
+
+
+				</section>
+
+				<section data-transition="concave" style="text-align: left;">
+					<h1>THE END</h1>
+					<h3>El éxito que se comparte, se multiplica.</h3>
+					<h3>De nada te sirve llegar alto si estas solo.</h3>
+					<p>
+						- <a href="https://github.com/talueses">Talueses</a> <br>
+					</p>
+					<p>
+						
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'zoom', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
